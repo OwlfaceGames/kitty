@@ -4,19 +4,25 @@ include current-theme.conf
 # END_KITTY_THEME
 
 # Font configuration
+font_family JetBrainsMono NF
 font_size 26
-font_family JetBrains Mono
-bold_font JetBrains Mono Regular            
-italic_font JetBrains Mono Regular
-bold_italic_font JetBrains Mono Regular
 
 # Disable synthetic italics and ligatures
 disable_ligatures always
 modify_font slant 0
 
+# Disable bold and italic fonts
+bold_font none
+italic_font none
+bold_italic_font none
+
 # Cursor configuration
 cursor_shape block
 shell_integration no-cursor
+
+# Inverted cursor effect
+cursor_text_color background
+cursor_color_matches_foreground yes
 
 # Inverted selection highlighting
 selection_foreground none
@@ -51,3 +57,6 @@ inactive_tab_background #3c3836
 inactive_tab_font_style normal
 tab_bar_background      #282828
 tab_bar_margin_color    #282828
+
+
+
