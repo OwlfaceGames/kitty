@@ -13,12 +13,12 @@ modify_font slant 0
 # Cursor configuration
 cursor_shape block
 # cursor none
-# cursor_text_color background
+cursor_text_color background
 shell_integration no-cursor
 cursor_blink_interval 0
 
 # Inverted selection highlighting
-# selection_foreground none
+selection_foreground none
 
 # Hide mouse when typing
 mouse_hide_wait 1.0
@@ -39,9 +39,3 @@ tab_bar_min_tabs 2
 tab_switch_strategy previous
 tab_fade 0.25 0.5 0.75 1
 tab_separator " ┇"
-
-
-# BEGIN_KITTY_THEME
-# Solarized Dark
-include current-theme.conf
-# END_KITTY_THEME
